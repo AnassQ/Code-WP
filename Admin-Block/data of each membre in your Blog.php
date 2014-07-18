@@ -1,4 +1,5 @@
 //this code snippet will show to admin what to evrey membre in your blog what he add {Post - Categories - ...}
+//link of explanation : Soon
 
 add_action('manage_users_columns','compteur_posts');
 function compteur_posts($column_headers) {
