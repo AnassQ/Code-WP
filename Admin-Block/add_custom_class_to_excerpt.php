@@ -1,3 +1,4 @@
+//link : http://bit.ly/Ugzmnf
 function Anass_custom_excerpt($excerpt) {
   $excerpt = str_replace( "<p", "<p class=\"box\"", $excerpt );
   return $excerpt;
